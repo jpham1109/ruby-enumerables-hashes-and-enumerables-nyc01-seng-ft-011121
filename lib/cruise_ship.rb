@@ -13,5 +13,6 @@ def select_winner(passengers)
     if suite == :suit_a && name.start_with?("A")
       winner = "#{suite}: #{name}"
     end
-  puts winner
+    puts winner
+  end
 end
